@@ -15,22 +15,23 @@ body {
 .cabeçalho {
     background-color: #000043;
     color: #ffffff;
-    text-align: center;
-    position: fixed;
+    text-align:center;
+    position: sticky;
     top: 0;
     left: 0;
-    width: 100%;
     padding: 2rem;
+    z-index: 999;
     /* 2rem = 32px*/
 }
 
 
 .batman {
-    padding: 20rem;
+    padding: 19rem;
     background-image: url(img/cidade.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
@@ -68,4 +69,6 @@ footer {
     justify-content: center;
     align-items: center;
     color: #ffffff;
+    flex-wrap: wrap;
+
 }
